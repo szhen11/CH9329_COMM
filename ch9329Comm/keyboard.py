@@ -44,7 +44,15 @@ class DataComm:
                                        "VV": b"\x19",
                                        "BB": b"\x05",
                                        "NN": b"\x11",
-                                       "MM": b"\x10"
+                                       "MM": b"\x10",
+                                       "ET": b"\x28",  # ENTER
+                                       "LF": b"\x50",  # LEFT
+                                       "UP": b"\x52",  # UP
+                                       "DW": b"\x51",  # DOWN
+                                       "RT": b"\x4F",  # RIGHT
+                                       "DL": b"\x4C",  # DEL
+                                       "F2": b"\x3B",  # F2
+                                       "FA": b"\x43",  # F10
                                        }
 
     """
